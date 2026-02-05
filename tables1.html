@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 2px solid rgb(99,22,137);
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        /* ROW COLORS ONLY */
+        table tr:nth-child(even){
+            background-color: #2d2d2d;   /* even row color */
+        }
+
+        table tr:nth-child(odd){
+            background-color: #a14e4e;   /* odd row color */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>A SIMPLE TABLE</h1>
+
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Name</th>
+            <th>Country</th>
+            <th>City</th>
+            <th>D.O.B</th>
+            <th rowspan="2">Age</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+
+        <tr>
+            <td colspan="2">Aura</td>
+            <td>Aura</td>
+            <td>Kenya</td>
+            <td>Nairobi</td>
+            <td>2005</td>
+            <td>20</td>
+            <td>Male</td>
+        </tr>
+    </table>
+
+</body>
+</html>
